@@ -10,6 +10,6 @@ This repository contains examples for the following:
 You can run the following commands:
 
 - `npm run server` runs a basic express api
-- `npm run graphql`: runs a GraphQL wrapper around the basic express api
+- `npm run graphql` runs a GraphQL wrapper around the basic express api
 - `npm run server-graphql` runs a GraphQL Express server
 - `npm run client` runs a simple http server for the client with cors disabled
