@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-graphql-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "graphql": "node graphql/index.js",
+    "server-graphql": "node graphql/express.js",
+    "client": "npx serve client --cors"
+  },
+  "author": "Joost",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "node-fetch": "^3.3.0"
+  }
+}
